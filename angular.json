@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "screen-recorder:build:production"
+              "buildTarget": "screen-recorder:build:production"
             },
             "development": {
-              "browserTarget": "screen-recorder:build:development"
+              "buildTarget": "screen-recorder:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "screen-recorder:build"
+            "buildTarget": "screen-recorder:build"
           }
         },
         "test": {
